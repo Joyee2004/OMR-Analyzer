@@ -115,14 +115,14 @@ def main():
     tabs = st.tabs(["Home", "Process OMR", "About"])
     
     with tabs[0]:
-        st.header("About OMR Scanner")
+        st.header("About OMR Analyzer")
         st.write("""
             This application uses computer vision and image processing concepts to scan and process OMR (Optical Mark Recognition) sheets.
             You can upload your own images and answer key to process your OMR and generate a detailed report alongside data visualizations.
         """)
     
     with tabs[1]:
-        st.header("Process Your Own OMR")
+       
         with st.container():
             st.markdown('<div class="center-form">', unsafe_allow_html=True)
             with st.form(key="omr_form"):
